@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-public class Kata
+public class SquareNSum
  {
   public static int squareSum(int[] n)
     { 
