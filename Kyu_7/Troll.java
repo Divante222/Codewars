@@ -14,3 +14,9 @@ public class Troll {
         replace("A", "").replace("E", "").replace("I", "").replace("O", "").replace("U", "");
     }
 }
+
+// public class Troll {
+//   public static String disemvowel(String str) {
+//       return str.replaceAll("[aeiouAEIOU]", "");
+//   } 
+// }
