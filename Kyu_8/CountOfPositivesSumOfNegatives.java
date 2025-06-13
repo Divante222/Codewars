@@ -25,3 +25,14 @@ public class CountOfPositivesSumOfNegatives {
       }
     }
 }
+
+// import java.util.stream.*;
+
+// public class Kata {
+
+//   public static int[] countPositivesSumNegatives(int[] input) {
+//     return input == null || input.length == 0 ? 
+//       new int[0] : 
+//       new int[] { (int)IntStream.of(input).filter(i->i>0).count(), IntStream.of(input).filter(i->i<0).sum() };
+//   }
+// }
